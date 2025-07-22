@@ -1,0 +1,40 @@
+body {
+  font-family: cursive;
+  background: url(maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+
+form {
+  text-align: left;
+  background-color: rgba(137, 137, 137, 0.123);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(229, 229, 229, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.064);
+  border-radius: 10px;
+  color: white;
+  padding: 40px 35px 55px;
+  width: 300px;
+}
+h2{
+    color: darkgreen;
+}
+h3{
+    color: darkviolet;
+}
+.error {
+  color: red;
+  font-weight: bold;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
